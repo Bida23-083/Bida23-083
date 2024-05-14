@@ -1,0 +1,91 @@
+body{
+   background-image:linear-gradient(to bottom,black,rgb(3, 3, 114) );  
+            }
+
+    header image{float:left;
+        
+    }
+    header nav{
+        text-align: center;
+  display: inline-block;
+  padding: 14px 25px;
+ }
+ button {
+  float: left;
+  margin-top: -2%;
+  margin-left: 18%;
+  background-color: #515551;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9e0000;
+}    
+    
+  article{
+    width: 700px;
+    margin: 0% auto;
+    border: 1px solid #333;
+    border-radius: 5%;
+    box-shadow: 0 0 80px rgba(212, 204, 204, 0.3);
+    position: relative;
+  }
+   article img{
+    border-radius:10px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 5%;
+  }
+
+   article content{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    padding: 20px;
+    border-top: 1px solid #666;
+
+   }
+   article content h1{ 
+    color: white;
+    margin: 0%;
+   }
+
+ section h2{
+  color: white ;
+  font-weight: bold;
+
+ }
+
+a{
+  background-color: #515551;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+a:hover{ background-color: #9e0000;
+
+}
+section img{
+  border-radius: 30px;
+  padding: 1%;
+}
+article div{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+footer h2{
+  color: white;
+}
+footer p{
+  color: white;
+}
